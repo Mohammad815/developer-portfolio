@@ -9,6 +9,7 @@ h1{
 }
 section{
     display: flex;
+    margin-bottom: 100px;
 }
 .top-banner{
     background-image: url(image/top-banner.png);
@@ -29,4 +30,27 @@ section{
     background-image: linear-gradient(orange,tomato);
     color:white;
     font-family: 700;
+}
+.middle-banner{
+    background-image: url(image/dream-bg.png);
+    background-position: right bottom;
+    ;
+    background-repeat: no-repeat;
+}
+.container-bottom{
+    display: flex;
+    padding-left: 2%;
+}
+.experience{
+    width: 40%;
+    margin-left:5%;
+    margin-right: 5%;
+    padding-left: 10px;
+    box-shadow: 10px 10px 40px gray;
+
+}
+.container-bottom{
+    background-image: url(image/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left top;
 }
