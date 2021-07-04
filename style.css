@@ -53,9 +53,13 @@ section{
     background-image: url(image/exp-bg.png);
     background-repeat: no-repeat;
     background-position: left top;
+    margin-bottom: 10px;
 }
 #div1{
     border-left: 7px solid;
     border-image: linear-gradient(blue,cyan);
     border-image-slice: 1;
+}
+footer{
+    text-align: center;
 }
